@@ -32,6 +32,6 @@ var cars = []
     }
     
     for (var i = 0; i < 30; i++)
-    cars.push(new Car(marks[Math.floor(Math.random() * marks.length)], `Serie ${i % 10}`, 1999 + i % 10))
+    cars.push(new Car(marks[Math.floor(Math.random() * marks.length)], `Model ${i % 10}`, 1999 + i % 10))
     
     console.log(cars)   
